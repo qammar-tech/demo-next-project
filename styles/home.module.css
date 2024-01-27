@@ -1,0 +1,47 @@
+.homeText {
+    font-size: 94px;
+    font-weight: 700;
+    line-height: 110px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #344054;
+  }
+  .imgDiv{
+    border:14px solid white;
+  }
+.footerText{
+  gap: 20px !important;
+}
+  /* For screens smaller than 640px (sm) */
+@media (max-width: 639px) {
+  .homeText {
+    font-size: 48px; /* Adjust the font size for smaller screens */
+    line-height: 60px; /* Adjust the line height for smaller screens */
+  }
+
+  .imgDiv {
+    border-width: 8px; /* Adjust the border width for smaller screens */
+  }
+  .footerText{
+    gap: 70px !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* For screens 640px and larger (md) */
+@media (min-width: 640px) {
+
+}
+
+/* For screens 768px and larger (lg) */
+@media (min-width: 768px) {
+}
+
+/* For screens 1024px and larger (xl) */
+@media (min-width: 1024px) {
+  .homeText {
+    font-size: 65px;
+    font-weight: 700;  }
+
+}
